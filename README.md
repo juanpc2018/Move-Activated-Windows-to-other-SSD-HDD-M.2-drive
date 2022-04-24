@@ -82,12 +82,13 @@ UEFI+Bios BCD with MBR does Not Boot.
 WARNING #5.
 Windows10 cannot be installed directly,
 overwrites the Mac EFI with a Serial code,
-DAMAGES the Mac,
+DAMAGES the Mac.
+
 Options:
-A) Install in other PC, move the SSD or M.2
-B) Install in Virtual Machine .vhdx
+1. Install in other PC, move the SSD or M.2
+2. Install in Virtual Machine .vhdx
 create & modify ssd or m.2 Bootloader partition to detect .vhdx file as a real partition.
-C) use a software like twocanoes winclone. 
+3. use a software like twocanoes winclone. 
 
 MacPro 6,1 2013
 has Apple SSD AHCI mini PCIe propietary connector, 
