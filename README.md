@@ -63,11 +63,12 @@ One Flag is to Allow Win8-WTG, disabled by-default in most external USB3.0 cases
 WARNING #4.
 Windows8.1 in a MacPro 4,1 2009 or 5,1 2010/2012, 
 internal SATA is 3Gbps, 
+
 3 options:
-Buy a PCIe to SATA card with UEFI / Bios boot like:
+1. Buy a PCIe to SATA card with UEFI / Bios boot like:
  Sonnet Tempo Dual SATA.
-Buy a PCIe to M.2 card,
-use internal SATA-II 3Gbps "slow".
+2. Buy a PCIe to M.2 card,
+3. use internal SATA-II 3Gbps "slow".
 
 Sonnet Tempo PCie is a Big improvement,
 has a controller IC between Mac and SSD,
