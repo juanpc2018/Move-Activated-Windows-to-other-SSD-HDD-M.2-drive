@@ -80,7 +80,7 @@ UEFI bootloader seems to require GPT partitions.
 UEFI+Bios BCD with MBR does Not Boot.
 
 WARNING #5.
-Windows10 cannot be installed directly,
+Windows10 cannot be installed directly in a Mac,
 overwrites the Mac EFI with a Serial code,
 DAMAGES the Mac.
 
