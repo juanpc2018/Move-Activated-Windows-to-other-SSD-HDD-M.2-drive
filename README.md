@@ -1,7 +1,6 @@
 # Move-Activated-Windows-to-other-SSD-HDD-M.2-drive
 
-This is Microsoft Official Approved Method,
-to transfer an Activated Windows hdd to another New hdd ssd or m.2
+This is Microsoft Official Approved Method to transfer an Activated Windows hdd to another New hdd ssd or m.2
 
 there are softwares that doit Automatically,
 EaseUS, MiniTool, Winclone, etc...
