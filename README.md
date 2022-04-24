@@ -6,10 +6,11 @@ there are softwares that doit Automatically,
 EaseUS, MiniTool, Winclone, etc...
 
 This is the Manual DIY Method.
+
 Tools Required:
 1) External USB3.0 HDD,  
 formatted in NTFS
-Bigger than the C: drive partition usually 1TB or more.
+Bigger than the C: drive / partition usually 1TB or more.
 2) USB pen drive 1GB or more.
 3) New drive, 
 same size or bigger than old C: partition/drive.
