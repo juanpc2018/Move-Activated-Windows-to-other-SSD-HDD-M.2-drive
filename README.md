@@ -1,16 +1,16 @@
 # Move-Activated-Windows-to-other-SSD-HDD-M.2-drive
 
 This is Microsoft Official Approved Method,
-to transfer an Activated Windows hdd to another New hhd ssd m.2.
+to transfer an Activated Windows hdd to another New hdd ssd or m.2
 
 there are softwares that doit Automatically,
-EaseUS, MiniTool, etc...
+EaseUS, MiniTool, Winclone, etc...
 
-This is the Manual Method.
+This is the Manual DIY Method.
 Tools Required:
-1) External USB3.0 HDD 
+1) External USB3.0 HDD,  
 formatted in NTFS
-bigger than the C: drive partition usually 1TB or more.
+Bigger than the C: drive partition usually 1TB or more.
 2) USB pen drive 1GB or more.
 3) New drive, 
 same size or bigger than old C: partition/drive.
@@ -31,8 +31,8 @@ etc...
 
 WARNING #2
 UEFI BIOS
-When Windows8.1 or W10 is installed the first time in a
-BIOS machine "old" 2010-2013, or Newer with Legacy Mode Active.
+When Windows8.1 or W10 is installed for the 1st time in a
+BIOS machine "old" 2010-2013, or Newer with Legacy Mode Activated.
 
 Windows Installer BCD creates a BIOS bootloader,
 IF want to move Windows to a New M.2 drive requires UEFI Boot,
