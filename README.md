@@ -17,7 +17,7 @@ same size or bigger than old C: partition/drive.
 
 
 WARNING #1.
-Do Not use Clonezilla or Gparted
+Do Not use Clonezilla or Gparted,
 both are amazing softwares,
 BUT...
 when you copy or clone an Activated Windows,
