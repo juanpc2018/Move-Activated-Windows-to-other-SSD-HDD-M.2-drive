@@ -115,7 +115,8 @@ WARNING #6.
 SSD or M.2 
 AHCI or NVMe have different Technologies:
 
-SLC rare and most powrer hungry, most expensive.
+SLC rare and most power hungry, most expensive.
+
 MLC high-end prosumer, 2-Bits per cell, long lasting, but most are limited to PCIe v3.0 speeds 2600MB/s
 
 TLC cheaper 3-Bits per cell, Balanced between Price vs. Performance,
@@ -126,7 +127,7 @@ QLC the cheapest 4-Bits per cell, very slow when used as QLC,
 when used constantly "Not as a storage device Only", last very little.
 Some have a controller IC that emulates SLC with QLC, increases speed and makes it last longer.
 
-Cheaper TLC does Not have DRAM, very important to minimuze wear and increase speed.
+Cheaper TLC does Not have DRAM cache, very important to minimize wear and increase speed.
 example:
 Crucial MX is True TLC SSD,
 Crusial BX is cheap TLC SSD.
@@ -138,14 +139,14 @@ etc...
 
 
 WARNING #7.
-Make anual Back-up / Restore image to external USB3.0 HDD spinning mechanic magnetic drive "differnt technology".
+Make anual Backup / Restore image to external USB3.0 HDD spinning mechanic magnetic drive "differnt technology".
 Specially with Cheaper TLC or QLC.
 
-SLC, MLC. TLC, QLC loose information when Stored for long periods of time and Not turned-on in 1 year or less, depends on Storage Temperature, Heat 40°C = Bad.
+SLC, MLC. TLC, QLC loose information when Stored for long periods of time and Not turned-on in 1 year, depends on Storage Temperature, Heat 40°C = Bad.
 
-Magnetic Mechanic discs can tolerate a bit more Heat,
+Magnetic Mechanic discs can tolerate a bit more Heat, and more time,
 but Not vibration.
-Also does Not require to be Turned-On for long periods of Time.
+does Not require to be Turned-On for long periods of Time.
 Ferro Magnetic particles does Not change orientation, if Not exposed to a Megnetic field.
 
 ----
@@ -154,10 +155,11 @@ BIOS to BIOS or UEFI to UEFI Machine
 HDD to HDD 
 HDD to SSD
 SSD to SSD
-Same Size or Bigger Destination.
+M.2 to M.2
+Same Size or Bigger.
 
-A) Create a System image Backup
-Mouse Right Button click in Windows Taskbar / StartUp logo,
+A) Create a System image Backup Always.
+Mouse Right click Button in Windows Taskbar / StartUp logo,
 Control Panel / System and Security / File History
 Connect External USB3.0 drive formatted in NTFS
 click: System Image Backup.
@@ -169,18 +171,30 @@ click Recovery
 Create a Recovery drive "USB"
 
 C) Turn-Off
+
 D) Remove the Old Windows Drive.
+
 E) insert the New Empty Windows Drive.
+
 F) Turn-On, Select USB drive from Boot Menu F11 or F10 in most boards.
+
 G) IF the New Drive is Not Empty,
-IF New drive has been formated previously
-IF has partitions.
+
+IF New drive has been formated previously,
+
+IF has partitions, 
+
 you need to enter Command Line:
 DISKPART
+
 list disk
+
 select disk 0 or 1 "the disk that maches the size, brand"
+
 list partition
+
 list volume
+
 list disk again to see a * next to the disk selected
 
 type clean only when you are absolutely sure.
